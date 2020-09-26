@@ -16,12 +16,13 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "default", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title: "QuantenGhost"
-subtitle: "Sec, CLI, Code"
+title                    : "QuantenGhost"
+subtitle                 : "Sec, CLI, Code"
 name                     : "QuantenGhost"
-# email:
+email                    : "QuantenGhost@protonmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
   Cyber security, command line, cloud and code
+  
 url: "https://QuantenGhost.github.io"
 twitter_username: "QuantenGhost"
 github_username: "QuantenGhost"
