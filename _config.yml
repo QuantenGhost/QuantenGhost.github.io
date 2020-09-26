@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "QuantenGhost"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Your Name"
-description              : "An amazing website."
+description              : "Security with intent."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,8 +95,8 @@ analytics:
 author:
   name             : "QuantenGhost"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Security, IT Leadership, DevSecOps, Code, Cloud"
-  location         : "Cyber"
+  bio              : "Security with intent"
+  location         : "East Coast, USA"
   email            : "QuantenGhost@protonmail.com"
   links:
     - label: "Email"
