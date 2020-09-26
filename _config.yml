@@ -137,30 +137,26 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://twitter.com/QuantenGhost"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+      url: "https://github.com/QuantenGhost"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://instagram.com/QuantenGhost"
+    - label: "Keybase"
+      icon: "fab fa-fw fa-keybase"
+      url: "https://keybase.io/QuantenGhost"
+    - label: "Telegram"
+      icon: "fab fa-fw fa-telegram"
+      url: "https://t.me/s/QuantenGhost"
 
 
 # ######################################################################## Reading Files
 include:
   - .htaccess
   - _pages
-  - /docs
-  - /test
+  - /to_delete
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -186,6 +182,8 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - /docs
+  - /test
 
 keep_files:
   - .git
