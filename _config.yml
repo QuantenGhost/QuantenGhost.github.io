@@ -14,30 +14,29 @@
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "default", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-# ######################################################################## Site Settings
+# Site Settings
 locale                   : "en-US"
-title                    : "QuantenGhost"
-subtitle                 : "Sec, CLI, Code"
+title: "QuantenGhost"
+subtitle: "Sec, CLI, Code"
 name                     : "QuantenGhost"
-email                    : "QuantenGhost@protonmail.com"
+# email:
 description: >- # this means to ignore newlines until "baseurl:"
   Cyber security, command line, cloud and code
-
-url                       : "https://QuantenGhost.github.io"
-twitter_username          : "QuantenGhost"
-github_username           : "QuantenGhost"
-minimal_mistakes_skin     : "contrast"
+url: "https://QuantenGhost.github.io"
+twitter_username: "QuantenGhost"
+github_username: "QuantenGhost"
+minimal_mistakes_skin: "contrast"
 search: true
 repository               : "QuantenGhost/QuantenGhost.github.io"
-teaser                   : #"/assets/images/500x300.png"
-logo                     : #"/assets/images/88x88.png"
+teaser                   : "/assets/images/500x300.png"
+logo                     : "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : "quantenghost"
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -67,15 +66,15 @@ algolia:
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
-# ######################################################################## SEO Related
+# SEO Related
 google_site_verification :
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
 
-# ######################################################################## Social Sharing
+# Social Sharing
 twitter:
-  username               : "QuantenGhost"
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -84,11 +83,11 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : "Person"
+  type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
-# ######################################################################## Analytics
+# Analytics
 analytics:
   provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
@@ -96,67 +95,60 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 
-# ######################################################################## Site Author
+# Site Author
 author:
-  name             : "QuantenGhost"
-  avatar           : "/assets/images/quantenghost-bio-portrait.jpg"
-  bio              : "Sec, Dev, Cloud, CLI"
+  name             : "Your Name"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am an **amazing** person."
   location         : "Somewhere"
-  email            : "QuantenGhost@protonmail.com"
+  email            :
   links:
-    - label: "QuantenGhost.com"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:your.name@email.com"
+    - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://QuantenGhost.com"
+      # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/QuantenGhost"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/QuantenGhost"
-    - label: "Keybase"
-      icon: "fab fa-fw fa-keybase"
-      url: "https://keybase.io/QuantenGhost"
+      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/QuantenGhost"
-    - label: "Telegram"
-      icon: "fab fa-fw fa-telegram"
-      url: "https://t.me/s/QuantenGhost"
-    - label: "Crypto Donation"
-      icon: "fab fa-fw fa-bitcoin"
-      url: "https://t.me/s/QuantenGhost"
-    - label: "Buy Me a Coffee"
-      icon: "fas fa-fw fa-coffee"
-      url: "https://buymeacoff.ee/QuantenGhost"
-    - label: "Patreon"
-      icon: "fab fa-fw fa-patreon"
-      url: "https://www.patreon.com/QuantenGhost"
+      # url: "https://instagram.com/"
 
-# ######################################################################## Site Footer
+# Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/QuantenGhost"
+      # url:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/QuantenGhost"
+      # url:
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      # url:
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/QuantenGhost"
-    - label: "Keybase"
-      icon: "fab fa-fw fa-keybase"
-      url: "https://keybase.io/QuantenGhost"
-    - label: "Telegram"
-      icon: "fab fa-fw fa-telegram"
-      url: "https://t.me/s/QuantenGhost"
+      # url:
 
 
-# ######################################################################## Reading Files
+# Reading Files
 include:
   - .htaccess
   - _pages
-  - /to_delete
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -182,9 +174,8 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs
-  - /test
-
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -192,7 +183,7 @@ encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
-# ########################################################################  Conversion
+# Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
@@ -200,7 +191,7 @@ excerpt_separator: "\n\n"
 incremental: false
 
 
-# ########################################################################  Markdown Processing
+# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -212,20 +203,20 @@ kramdown:
   enable_coderay: false
 
 
-# ########################################################################  Sass/SCSS
+# Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
-# ########################################################################  Outputting
+# Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: America/New_York
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
-# ########################################################################   Plugins (previously gems:)
+# Plugins (previously gems:)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -242,7 +233,7 @@ whitelist:
   - jekyll-include-cache
 
 
-# ########################################################################   Archives
+# Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
 #  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
@@ -271,7 +262,7 @@ tag_archive:
 #     tag: /tags/:name/
 
 
-# ########################################################################   HTML Compression
+# HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
   clippings: all
@@ -279,7 +270,7 @@ compress_html:
     envs: development
 
 
-# ########################################################################   Defaults
+# Defaults
 defaults:
   # _posts
   - scope:
