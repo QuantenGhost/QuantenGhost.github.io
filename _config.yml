@@ -93,11 +93,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "QuantenGhost"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Security, IT Leadership, DevSecOps, Code, Cloud"
+  location         : "Cyber"
+  email            : "QuantenGhost@protonmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
