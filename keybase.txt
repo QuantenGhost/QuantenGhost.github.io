@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/quantenghost
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://quantenghost.com
+  * I am quantenghost (https://keybase.io/quantenghost) on keybase.
+  * I have a public key ASBEl7G9hEAopv84A5gNB6a59sVgrAD5CxOPSGMDh4qGdwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01204497b1bd844028a6ff3803980d07a6b9f6c560ac00f90b138f486303878a86770a",
+      "host": "keybase.io",
+      "kid": "01204497b1bd844028a6ff3803980d07a6b9f6c560ac00f90b138f486303878a86770a",
+      "uid": "9740c70c5bac1aab5660b0e9af319019",
+      "username": "quantenghost"
+    },
+    "merkle_root": {
+      "ctime": 1722553906,
+      "hash": "f11cf060acfc3ec38449bdb3aa85cd4a31e1af35eab2ad557029cd55c03d69105358f11b62e57fbb3ab0423b8c7543b85943571066007c10a7e4b9888ad38b80",
+      "hash_meta": "295b77c7b5594aa1bb83a32be78795a14368f465526ff2aaecdd51c3754d954e",
+      "seqno": 25971530
+    },
+    "service": {
+      "entropy": "7zDJNDlTKvJDSDaMHWlqgPOS",
+      "hostname": "quantenghost.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.3.1"
+  },
+  "ctime": 1722553966,
+  "expire_in": 504576000,
+  "prev": "8a87b106668512facd81a53371690eb9a1275a52deea4c8d481466e9305444a3",
+  "seqno": 44,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgRJexvYRAKKb/OAOYDQemufbFYKwA+QsTj0hjA4eKhncKp3BheWxvYWTESpcCLMQgioexBmaFEvrNgaUzcWkOuaEnWlLe6kyNSBRm6TBURKPEIEghwJPiACK0yGqA9xxyA1amYIHkwGz4tq44L1pkqJBnAgHCo3NpZ8RA0+EWaTtwZopF/ltGoBRZur+hw4D4GnyTmXaeQ2OxbnLwncf4NOClR4E/gpvx9CBm5ZgHDflZYcf2k3IiKXuqDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPLEy6EDXt9GQQ2Lf1TjZTY5eM9+8RRYowVlIMrmR+Cso3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/quantenghost
+
+==================================================================
